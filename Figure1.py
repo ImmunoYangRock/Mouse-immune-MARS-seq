@@ -18,7 +18,7 @@ import importlib
 importlib.reload(cosg)
 
 sc.settings.verbosity = 3
-adata = sc.read_h5ad('all/data//mousev9_2023615_120649c.h5ad') 
+adata = sc.read_h5ad('all/data/mouse_v9_final_120649c.h5ad') 
 annot_cat = ['B_pro','B_pre','B_mature','plasma','T_pre','T_naive','T_mature','T_gd','ILC','NK','Neu','Basophil','MastCell','Eos','Mon','Mac','KupfferCell','Langerhans','cDC2','cDC1','pDC','mDC' ]
 adata.obs.annot_d = adata.obs.annot_d.cat.reorder_categories(annot_cat)
 
