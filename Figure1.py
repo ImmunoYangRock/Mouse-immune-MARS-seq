@@ -3,7 +3,7 @@
 ## Fig1b, s1d, s1e
 #################################################################
 
-#### load data
+## load data
 import os
 import pandas as pd
 import numpy as np
@@ -22,8 +22,8 @@ adata = sc.read_h5ad('all/data/mouse_v9_final_120649c.h5ad')
 annot_cat = ['B_pro','B_pre','B_mature','plasma','T_pre','T_naive','T_mature','T_gd','ILC','NK','Neu','Basophil','MastCell','Eos','Mon','Mac','KupfferCell','Langerhans','cDC2','cDC1','pDC','mDC' ]
 adata.obs.annot_d = adata.obs.annot_d.cat.reorder_categories(annot_cat)
 
-
-#### Fig. 1b, UMAP plot
+#################################################################
+## Fig. 1b, UMAP plot
 del adata.uns['annot_d_colors'] 
 col_22 = ['#00417d',
 '#ffad30',
@@ -51,10 +51,12 @@ col_22 = ['#00417d',
 adata.uns['annot_d_colors'] = col_22
 sc.pl.umap(adata, color = 'annot_d', legend_loc=None, title='')
 
-#### Fig. s1d, UMAP plot
+#################################################################
+## Fig. s1d, UMAP plot
 sc.pl.umap(adata, color= 'annot_r', frameon=False, title = '', legend_loc=None)
 
-#### Fig. s1e, heatmap
+#################################################################
+## Fig. s1e, heatmap
 cosg.cosg(adata,
     key_added='cosg',
         mu=1,
