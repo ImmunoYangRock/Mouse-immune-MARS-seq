@@ -1,8 +1,7 @@
 #################################################################
-## python code to create figures related to Figure1
+## python code for generating figures related to Figure1.
 ## Fig1b, s1d, s1e
 #################################################################
-
 
 #### load data
 import os
