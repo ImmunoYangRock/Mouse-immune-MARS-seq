@@ -1,9 +1,11 @@
 # Code for figures
 
-Spatiotemporal mapping reveals microbiota-dependent maintenance of functional
-competence during postnatal immune maturation ([Science Bulletin, 2026](https://www.sciencedirect.com/science/article/pii/S2095927326012466)).
+"Spatiotemporal mapping reveals microbiota-dependent maintenance of functional competence 
+during postnatal immune maturation" ([Science Bulletin, 2026](https://www.sciencedirect.com/science/article/pii/S2095927326012466)).
 
-This repository contains the bioinformatic analysis code for all figures.
+<img width="572" height="618" alt="image" src="https://github.com/user-attachments/assets/806211e3-e27f-4d83-99b9-9219fc06a8e7" />
+
+This repository contains the bioinformatic analysis code for all figures. 
 Wet-lab panels (flow cytometry, qPCR; plotted with GraphPad Prism) are not included.
 
 # Figure 1
