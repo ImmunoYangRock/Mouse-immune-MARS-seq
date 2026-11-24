@@ -5,7 +5,7 @@ during postnatal immune maturation" ([Science Bulletin, 2026](https://www.scienc
 
 <img width="572" height="618" alt="image" src="https://github.com/user-attachments/assets/806211e3-e27f-4d83-99b9-9219fc06a8e7" />
 
-This repository contains the bioinformatic analysis code for all figures. 
+This repository contains the bioinformatic analysis code for all figures. Processed data could be available in [Zenodo](https://zenodo.org/uploads/21862216).
 Wet-lab panels (flow cytometry, qPCR; plotted with GraphPad Prism) are not included.
 
 # Figure 1
